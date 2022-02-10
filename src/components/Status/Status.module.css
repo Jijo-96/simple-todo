@@ -1,0 +1,26 @@
+:root {
+  --mainColor: #E33E5A;
+}
+
+.status {
+  font-size: 1rem;
+}
+
+.status__title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.status__info {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.status__count {
+  font-weight: 900;
+  color: var(--mainColor);
+}

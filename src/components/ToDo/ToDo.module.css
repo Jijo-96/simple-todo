@@ -1,0 +1,69 @@
+:root {
+  --primaryColor: #162447;
+  --secondaryColor: #1F4068;
+  --lightColor: #FFFFFF;
+  --darkColor: #1A1B2F;
+  --mainColor: #E33E5A;
+  --mainColorLight: hsla(350, 75%, 57%, 0.4);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: var(--mainColor);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 50px;
+  background-color: var(--mainColorLight);
+}
+
+
+.todo {
+  background-color: var(--lightColor);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.todo__title__container {
+  padding-bottom: .75rem;
+}
+
+.todo__title {
+  font-weight: 900;
+}
+
+.highlight {
+  color: var(--mainColor);
+}
+
+.todo__body {
+  height: 60vh;
+  overflow: none;
+  overflow-y: scroll;
+}
+
+.todo__search__container {
+  position: relative;
+  padding: 0 0 1rem 0;
+}
+
+.search__icon {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+
+.todo__search {
+  width: 320px;
+  outline: none;
+  border: 1px solid #E7E7E7;
+  color: #555;
+  padding: .6rem 1.85rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+}

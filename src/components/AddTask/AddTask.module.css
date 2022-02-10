@@ -1,0 +1,44 @@
+:root {
+   --secondaryColor: #1F4068;
+}
+
+input::placeholder {
+  color: var(--secondaryColor);
+}
+
+.add__task__container {
+  height: 40px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondaryColor);
+}
+
+input::placeholder {
+  color: #555 !important;
+}
+
+.add__task {
+  color: #555;
+  width:100%;
+  font-size: 0.8rem;
+  outline: none;
+  border: none;
+  padding: 0.45rem;
+  border-radius: 5px;
+  transition: all 500ms ease-in;
+}
+
+
+.add__task:focus::placeholder {
+  opacity: 0;
+}
+
+.add__task:hover {
+  border: 1px solid #E7E7E7;
+}
+
+.add__task:hover::placeholder {
+  opacity: 0;
+}

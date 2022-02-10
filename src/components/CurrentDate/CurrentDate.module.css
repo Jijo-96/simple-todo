@@ -1,0 +1,32 @@
+:root {
+  --primaryColor: #162447;
+  --secondaryColor: #1F4068;
+  --lightColor: #FFFFFF;
+  --darkColor: #1A1B2F;
+  --mainColor: #E33E5A;
+  --mainColorLight: hsla(350, 75%, 57%, 0.4);
+}
+
+.date__container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.date {
+  align-items: flex-end;
+}
+
+.date__container_1 {
+  position: relative;
+  color: var(--mainColor);
+}
+
+.ordinal__numbers {
+  position: absolute;
+  left: 40px;
+  bottom: 6px;
+}
+
+.month {
+  margin-right: 5px;
+}
